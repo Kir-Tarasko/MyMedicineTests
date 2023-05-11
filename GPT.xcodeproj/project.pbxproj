@@ -13,6 +13,7 @@
 		95291E832A07992900167561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95291E812A07992900167561 /* Main.storyboard */; };
 		95291E852A07992A00167561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95291E842A07992A00167561 /* Assets.xcassets */; };
 		95291E882A07992A00167561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95291E862A07992A00167561 /* LaunchScreen.storyboard */; };
+		95291E902A07997E00167561 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95291E8F2A07997E00167561 /* SignInVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95291E842A07992A00167561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95291E872A07992A00167561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95291E892A07992A00167561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95291E8F2A07997E00167561 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				95291E7B2A07992900167561 /* AppDelegate.swift */,
 				95291E7D2A07992900167561 /* SceneDelegate.swift */,
 				95291E7F2A07992900167561 /* ViewController.swift */,
+				95291E8F2A07997E00167561 /* SignInVC.swift */,
 				95291E812A07992900167561 /* Main.storyboard */,
 				95291E842A07992A00167561 /* Assets.xcassets */,
 				95291E862A07992A00167561 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				95291E802A07992900167561 /* ViewController.swift in Sources */,
 				95291E7C2A07992900167561 /* AppDelegate.swift in Sources */,
+				95291E902A07997E00167561 /* SignInVC.swift in Sources */,
 				95291E7E2A07992900167561 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
