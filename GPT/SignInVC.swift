@@ -17,7 +17,6 @@ class SignInVC: UIViewController, UITextFieldDelegate {
         setLoginButton(enabled: false)
         textFieldSetup()
     }
-    
 }
 
 extension SignInVC {
@@ -102,7 +101,6 @@ extension SignInVC {
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
-    
 }
 
 
