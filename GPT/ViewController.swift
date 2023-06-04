@@ -70,12 +70,7 @@ class LoginView: UIView {
             addSubview(subwiew)
             subwiew.translatesAutoresizingMaskIntoConstraints = false
         }
-        
-//        loginTextField.translatesAutoresizingMaskIntoConstraints = false
-//        passwordTextField.translatesAutoresizingMaskIntoConstraints = false
-//        registerButton.translatesAutoresizingMaskIntoConstraints = false
-//        loginButton.translatesAutoresizingMaskIntoConstraints = false
-        
+
         NSLayoutConstraint.activate([
             // Размещение поля ввода логина
             loginTextField.centerXAnchor.constraint(equalTo: centerXAnchor),
